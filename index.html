@@ -5,44 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>twitter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">
-            <div class="icons">
-                <a href="#"><i class="fas fa-twitter"></i></a>
-            </div>
-        </a>
-
-        <nav class="icons">
-            <a href="#" class="fas fa-home" id="home-btn">home</a>
-            <a href="#" class="fas fa-search" id="search-btn">explore</a>
-            <a href="#" class="fas fa-bell" id="notification-btn">notification</a>
-            <a href="#" class="fas fa-envelope" id="message-btn">messages</a>
-            <a href="#" class="fas fa-globe" id="grok-btn">grok</a>
-            <a href="#" class="fas fa-users" id="communities-btn">communities</a>
-            <a href="#" class="fas fa-user" id="profile-btn">profile</a>
-            <a href="#" class="fas fa-ellipsis" id="more-btn">more</a>
+<!--header section starts here--> 
+<div class="container">  
+<section class="box-container1">
+<header class="header">
+  <i class="fa-brands fa-twitter fa-5x"></i>
+  
+        <nav class="navbar">
+            <a href="index.html" class="fas fa-home" id="home-btn">home</a>
+            <a href="explore.html" class="fas fa-search" id="search-btn">explore</a>
+            <a href="notification.html" class="fas fa-bell" id="notification-btn">notification</a>
+            <a href="messages.html" class="fas fa-envelope" id="message-btn">messages</a>
+            <a href="grok.html" class="fas fa-globe" id="grok-btn">grok</a>
+            <a href="communities.html" class="fas fa-users" id="communities-btn">communities</a>
+            <a href="profile.html" class="fas fa-user" id="profile-btn">profile</a>
+            <a href="more.html" class="fas fa-ellipsis" id="more-btn">more</a>
           </nav>  
            <a href="">
             <button id="b1">post</button> 
         </a>
+    <br><br><br><br><br>
         <span class="profile">
             <a href="https://x.com/IrmiyaJeth79445">
                 <img src="/img/jay.jpg" alt="profile picture"
                 height="35px" width="70px">
+                <button id="b2"> JETHRO IRMIYA <br>@IrmiyaJeth79445</button>
             </a>
-            <button id="b2">@IrmiyaJeth79445</button>
         </span>
     </header>
+    </section>
 <!--header section ends here-->
 
 <!--home section starts here-->
+<div class="box-container2">
     <section class="home" id="home">
-        <h1 class="heading">following</h1> <hr>
-
-         <main class="container">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#home">following</a></li>
+                    <li><a href="#home">for you</a></li>
+                </ul>
+            </nav>
+            <br><br>
             <span class="profile">
             <a href="https://x.com/IrmiyaJeth79445">
                 <img src="/img/jay.jpg" alt="profile picture"
@@ -50,7 +56,8 @@
             </a>
         </span>
             <label for="comment"></label>
-            <textarea name="comment" id="comment" placeholder="whats happening"></textarea><br>
+            <textarea name="comment" id="comment" placeholder="whats happening"></textarea>
+            <br><br>
             <div class="icons">
                 <a href="#"><i class="fas fa-camera"></i></a>
                 <a href="#"><i class="fas fa-image"></i></a>
@@ -58,7 +65,7 @@
                 <a href="#"><i class="fas fa-emoji"></i></a>
                 <a href="#"><i class="fas fa-calendar"></i></a>
                 <a href="#"><i class="fas fa-post"></i></a>
-                <a href="#"><i class="button">post</i></a>
+                <a href=""><button id="b3">post</button></a><br><br>
                 <hr>
               </div>
               <div class="content">
@@ -73,9 +80,9 @@
               </div>
               <div class="video">
                 <a href="https://x.com/i/status/1831697800108601624"></a>
-                <video src="BBnaija">
+                <hr><video src="img/BBnaija mp4.mp4" controls autoplay muted loop>
                     
-                </video>
+                </video><hr>
                 </a>
               </div>
               <div class="comments" id="icons">
@@ -89,20 +96,19 @@
               <hr>
               <div class="content">
                 <a href=""><h3 class="heading">Colgate Nigeria  @Colgate-ng</h3></a>
-                <a href=""><p id="p1">Colgate task is LIVE TODAY!!! 🤩 Follow 
+                <a href=""><p id="p1">Colgate task is LIVE TODAY!!! Follow 
                     <span></span>@colgate_ng</span>
                      and stand a chance to win a 50k cash prize. Don't sleep on this one.</p></a>
                 <a href=""><p id="p2"> watch full videos here</p></a>
               </div>
               <div class="links">
-                <a href="https://x.com/hashtag/BBNaija?src=hashtag_click">BBnaija</a>
-                <a href="https://x.com/hashtag/BBNaijaS9?src=hashtag_click">BBnaijaS9</a>
+                <a href="https://x.com/hashtag/DoYangaWithYourSmile?src=hashtag_click">DoYangaWithYourSmile</a>
               </div>
               <div class="video">
-                <a href="https://x.com/i/status/1831697800108601624"></a>
-                <video src="BBnaija">
+                <a href="https://x.com/i/status/1823027033976291543"></a>
+                <hr><video src="img/colgate.mp4" controls autoplay muted loop align-item="center">
                     
-                </video>
+                </video><hr>
                 </a>
               </div>
               <div class="comments" id="icons">
@@ -113,61 +119,100 @@
                 <a href=""><i class="fas fa-bookmark"></i></a>
                 <a href=""><i class="fas fa-share"></i></a>
               </div>
-              <hr>
-              <div class="content">
-                <a href=""><h3 class="heading">Big Brother naija  @BBnaija</h3></a>
-                <a href=""><p id="p1">With Agent Ben's mission accomplished, Handi, Ozee, and Wanni 
-                are left hunting high and low for their missing crates of eggs</p></a>
-                <a href=""><p id="p2"> watch full videos here</p></a>
+            </section>
+            </div>
+            <br><br>
+            <div class="box-container3">
+              <div class="search-form">
+
+                <input type="search" id="search-box" placeholder="search here...">
+                </div>
+              <br><br>
+              <div class="article">
+                <h3>Subscribe to premium</h3>
+                <p>Subscribe to unlock new features and if eligible,
+                    receive a share of ads revenue.</p>
+                <a href=""><button id="b4">Subcribe</button></a><br><br>
               </div>
-              <div class="links">
-                <a href="https://x.com/hashtag/BBNaija?src=hashtag_click">BBnaija</a>
-                <a href="https://x.com/hashtag/BBNaijaS9?src=hashtag_click">BBnaijaS9</a>
-              </div>
-              <div class="video">
-                <a href="https://x.com/i/status/1831697800108601624"></a>
-                <video src="BBnaija">
-                    
-                </video>
+              <br><br>
+              <div class="Trends">
+                <h2>Trends for you</h2>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>#BBnaija</h3>
+                    <h5>500k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>technology. Trending</h5>
+                    <h3>#knacking</h3>
+                    <h5>20k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>RIPLEGEND</h3>
+                    <h5>110k</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>topher</h3>
+                    <h5>500k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>SOOJ</h3>
+                    <h5>45k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>shuan</h3>
+                    <h5>890k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>Entertainment. Trending</h5>
+                    <h3>biggie</h3>
+                    <h5>320k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>technology. Trending</h5>
+                    <h3>web3conference</h3>
+                    <h5>100k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>politics. Trending</h5>
+                    <h3>#jagaban</h3>
+                    <h5>50k posts</h5>
+                </a>
+                <br>
+                <a href="">
+                    <h5>sports. Trending</h5>
+                    <h3>Osimhen</h3>
+                    <h5>270k posts</h5>
                 </a>
               </div>
-              <div class="comments" id="icons">
-                <a href=""><i class="fas fa-comment"><small>15</small></i></a>
-                <a href=""><i class="fas fa-retweet"><small>10</small></i></a>
-                <a href=""><i class="fas fa-thumbs-up"><small>478</small></i></a>
-                <a href=""><i class="fas fa-eye"></i><small>1.5k</small></a>
-                <a href=""><i class="fas fa-bookmark"></i></a>
-                <a href=""><i class="fas fa-share"></i></a>
-              </div>
-              <hr>
-              <div class="content">
-                <a href=""><h3 class="heading">Big Brother naija  @BBnaija</h3></a>
-                <a href=""><p id="p1">With Agent Ben's mission accomplished, Handi, Ozee, and Wanni 
-                are left hunting high and low for their missing crates of eggs</p></a>
-                <a href=""><p id="p2"> watch full videos here</p></a>
-              </div>
-              <div class="links">
-                <a href="https://x.com/hashtag/BBNaija?src=hashtag_click">BBnaija</a>
-                <a href="https://x.com/hashtag/BBNaijaS9?src=hashtag_click">BBnaijaS9</a>
-              </div>
-              <div class="video">
-                <a href="https://x.com/i/status/1831697800108601624"></a>
-                <video src="BBnaija">
-                    
-                </video>
-                </a>
-              </div>
-              <div class="comments" id="icons">
-                <a href=""><i class="fas fa-comment"><small>15</small></i></a>
-                <a href=""><i class="fas fa-retweet"><small>10</small></i></a>
-                <a href=""><i class="fas fa-thumbs-up"><small>478</small></i></a>
-                <a href=""><i class="fas fa-eye"></i><small>1.5k</small></a>
-                <a href=""><i class="fas fa-bookmark"></i></a>
-                <a href=""><i class="fas fa-share"></i></a>
-              </div>
-              <hr>
-         </main>
-    </section>
     
+    <!--home section ends here-->
+
+    <!--footer section starts here-->
+    <section class="footer" id="footer">
+        <div class="notes">
+                <a href=""><li>terms of services</li></a>
+                <a href=""><li>privacy policy</li></a>
+                <a href=""><li>cookies policy</li></a>
+                <a href=""><li>accessibility</li></a>
+                <a href=""><li>ads info</li></a>
+                <a href=""><li>more</li></a>
+            <div class="credit">created by <span>jaytee</span> <span>all rights reserved</span></div>
+        </div>
+    </section>
+</div>
+</div>
 </body>
 </html>
